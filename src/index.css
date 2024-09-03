@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: sans-serif;
+}
+
+.slant{
+  height: 10px;
+  width: 50px;
+  background: #1E1E1E;
+  position: absolute;
+  bottom: 0;
+  transform: rotate(35deg);
+  left: -25px;
+}
+
+.small{
+  height: 5px;
+  width: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  background: #1E1E1E;
+}
